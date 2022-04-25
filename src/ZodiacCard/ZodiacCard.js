@@ -1,11 +1,11 @@
 import './ZodiacCard.css';
 
-export default function ZodiacCard({ name, dates }) {
+export default function ZodiacCard(props) {
   return (
     <div className="zodiac-card">
-      <img alt={name} src={`../images/${name}.png`} />
-      <span className="name">{name}</span>
-      <span>{dates}</span>
+      <img alt={props.name} src={`../images/${props.name}.png`} />
+      <span className="name">{props.name}</span>
+      <span>{props.dates}</span>
     </div>
   );
 }

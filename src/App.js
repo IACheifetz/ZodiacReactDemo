@@ -7,9 +7,9 @@ import Main from './Main/Main';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header name={'Ian Cheifetz'}/>
       <Main zodiac={zodiac}/>
-      <Footer />
+      <Footer year={'2022'}/>
     </div>
   );
 }
